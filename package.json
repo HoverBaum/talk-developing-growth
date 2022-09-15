@@ -1,0 +1,16 @@
+{
+  "name": "talk-develop-growth",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.35.4",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "particles.vue3": "^2.2.3",
+    "tsparticles": "^2.2.3"
+  }
+}
