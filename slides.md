@@ -37,7 +37,7 @@ by Hendrik Wallbaum
 <!--
 How do companies develop growth? While some see incredible periods of growth. Both in revenue and user count, other seem to be left behind.
 
-How did companies such as Dropbox, Facebook or ... really kick off?
+How did companies such as Dropbox, Facebook or AirBnB take off for real?
 The thing they all shared in "Growth Hacking".
 -->
 
@@ -54,14 +54,16 @@ A structured approach to driving growth.
 Today I will share my experiences and help you bring Growth Hacking to your company.
 
 It is what helped Dropbox to take of (referrals)!
-Companies like Facebook have entire departments dedicated to it.
-Many of our clients managed to drive low cost, high efficient growth applying the techniques I will share with you today.
+Companies like Facebook have entire departments dedicated to it. (Internationalization)
+AirBnB took off using Craigslist.
+
+Today I want to share my passion for Growth Hacking and my experience with you.
 
 -->
 
 ---
 layout: speaker
-speakerImage: /assets/speaker.jpg
+speakerImage: /assets/speaker-2.jpeg
 ---
 
 # Hendrik Wallbaum
@@ -74,6 +76,8 @@ Consultant @Netlight
 Who am I to talk about this?
 Worked on Growth teams and helped different clients structure, setup and run growth (hacking) teams and initiatives.
 I Read the right books, you could do that too, but I bring some experience.
+
+Day of the cinnamon bun: 4. October. Sweden has 18 official days dedicated to different baked goods.
 -->
 
 ---
@@ -113,7 +117,7 @@ layout: image-left
 image: /assets/shuttle.jpg
 ---
 
-# Grow your company with confidence
+# Ready for take off
 
 <v-click>
 
@@ -129,6 +133,10 @@ emoji: ❓
 ---
 
 # Orange text<br />==<br />time for questions
+
+<!--
+Feel free to ask questions in English or German.
+-->
 
 ---
 layout: statement
@@ -151,6 +159,7 @@ emoji: 🫅
 - Holds team together
 - Ideally brings experience
 - Organizes meetings and work
+- Documents
 - Decision maker - to keep team moving
 -->
 
@@ -213,7 +222,8 @@ layout: questions
 
 # Cross functional teams
 
-Growth teams benefit from members of different departments. 
+Members of different departments.
+
 
 ---
 layout: image-left
@@ -232,9 +242,9 @@ Gather a LOT!
 
 <!--
 - Focus: Strategic opportunities and growth loops.
-- Can already mention "good ideas need many ideas". My girlfriend always likes to say "we need hundreds of vacation picture so that we get a few good ones!"
+- "Good ideas need many ideas". My girlfriend always likes to say "we need hundreds of vacation picture so that we get a few good ones!"
 - Input should come from everywhere!
-- We will talk later about filtering the mass of ideas.
+- We will talk later about filtering the mass of ideas
 -->
 
 ---
@@ -257,6 +267,8 @@ image: /assets/funnel/funnel-idea.png
 We need many ideas, an entire MIRO full of them.
 
 KPI not only primary, but also ones that make sense. Not only more leads, but more paying customers.
+
+At some point my team was singing "what, where, why and the KPI".
 -->
 
 ---
@@ -532,8 +544,10 @@ image: /assets/rocket.jpg
 </v-clicks>
 
 <!--
-- Start measuring if you aren't already
+- Measuring can be super simple, like in this talk.
 - Maybe you have some ideas already lying around.
+
+- Go for the low hanging fruits!
 -->
 
 ---
@@ -560,6 +574,14 @@ image: /assets/hacking-growth.jpeg
 
 <a href="https://growthhackers.com/">growthhackers.com</a>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+Images in this talk are from [unsplash](https://unsplash.com/collections/4603698/talks) and illustrations are by Netlights design team.
+
 ---
 layout: simple-intro
 ---
@@ -571,3 +593,7 @@ layout: simple-intro
 <a href="mailto:hendrik.wallbaum@netlight.com">hendrik.wallbaum@netlight.com</a>
 
 <a href="https://hendrikwallbaum.de">hendrikwallbaum.de</a>
+
+<!--
+Please give feedback through the website.
+-->

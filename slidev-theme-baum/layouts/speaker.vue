@@ -8,11 +8,11 @@
 
 <template>
   <div class="slidev-layout speaker">
-    <div class="flex h-full">
-      <figure class="w-1/2 flex flex-col justify-center">
-        <img :src="$attrs.speakerImage" class="relative rounded-md h-70 w-70" />
+    <div class="flex h-full justify-around flex-row">
+      <figure class="flex flex-col justify-center">
+        <img :src="$attrs.speakerImage" class="relative rounded-md w-60" />
       </figure>
-      <div class="w-1/2 flex flex-col justify-center">
+      <div class="flex flex-col justify-center">
         <slot />
       </div>
     </div>

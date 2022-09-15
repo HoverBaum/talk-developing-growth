@@ -29,7 +29,10 @@ function displayFallback() {
 </script>
 
 <template>
-  <AppleWindow @useFallback="displayFallback">
+  <AppleWindow
+    @useFallback="displayFallback"
+    :title="usingFallback ? 'Displaying Fallback' : ''"
+  >
     <iframe
       v-if="!usingFallback"
       id="frame"

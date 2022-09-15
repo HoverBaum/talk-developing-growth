@@ -7,6 +7,13 @@ const emit = defineEmits<{
   (e: "useFallback"): void;
 }>();
 
+const props = defineProps<{
+  /**
+   * The windows title.
+   */
+  title: string;
+}>();
+
 function onFallbackClick() {
   emit("useFallback");
 }
@@ -19,23 +26,41 @@ function onFallbackClick() {
       baum-window
       console
       text-xs
-      pt-6
       relative
       object-cover
       z-10
       flex-grow
+      pt-6
     "
     style="background-color: var(--surface); max-height: 100%"
   >
-    <ul class="absolute grid grid-cols-4 gap-3 top-2 left-4">
-      <li class="!m-0 rounded w-2 h-2 bg-red-400 inline-block"></li>
-      <li class="!m-0 rounded w-2 h-2 bg-yellow-300 inline-block"></li>
-      <li class="!m-0 rounded w-2 h-2 bg-green-500 inline-block"></li>
-      <li
-        @click="onFallbackClick"
-        class="!m-0 rounded w-2 h-2 bg-purple-500 inline-block secret-button"
-      ></li>
-    </ul>
+    <div
+      class="absolute top-0 flex flex-row w-full px-3 py-2"
+      style="height: 1.5rem"
+    >
+      <ul class="grid grid-cols-4 gap-3">
+        <li class="!m-0 rounded w-2 h-2 bg-red-400 inline-block"></li>
+        <li class="!m-0 rounded w-2 h-2 bg-yellow-300 inline-block"></li>
+        <li class="!m-0 rounded w-2 h-2 bg-green-500 inline-block"></li>
+        <li
+          @click="onFallbackClick"
+          class="!m-0 rounded w-2 h-2 bg-purple-500 inline-block secret-button"
+        ></li>
+      </ul>
+      <div
+        class="
+          absolute
+          top-1
+          z--1
+          flex flex-row
+          w-full
+          justify-center
+          items-center
+        "
+      >
+        <span class="inline-block">{{ props.title }}</span>
+      </div>
+    </div>
     <slot />
   </div>
 </template>
